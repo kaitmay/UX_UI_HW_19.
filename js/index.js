@@ -1,5 +1,5 @@
 console.log("your index.js file is loaded correctly");
 
-$("#ABOUT").click(function(){
-    $(".fademe) ("The paragraph was clicked.");
-  });
+$("button").click(function(){
+  $("p").fadeIn();
+});

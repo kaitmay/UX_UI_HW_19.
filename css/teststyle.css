@@ -4,8 +4,10 @@ body {
 
   /* navigation CSS */
     header {
-      background-color: white;
-      padding: 15px;
+  
+    padding: 20px;
+      margin: 0 auto;
+ 
     }
 
     header ul {
@@ -56,12 +58,21 @@ body {
 
 /* Introduction */
 .Welcome {
-  max-width: 500px;
-  margin: 15px 20px;
-  padding: 20px;
+  max-width: 50%;
+  padding: 25px;
   background-color: #FFFFFF;
   text-align: left;
 
+}
+
+
+.welcomeC h1{
+  color:#5A697E;
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
 }
 
 .content h1{
@@ -69,7 +80,7 @@ body {
   font-family: Red Hat Display;
   font-style: normal;
   font-weight: normal;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 66px;
 }
 
@@ -137,11 +148,11 @@ body {
   text-align: left;
   color:#5A697E;
   }
-.myWork h1{
+.myWork h2{
   font-family: Red Hat Display;
   font-style: normal;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 66px;
   text-align: center;
   color:#5A697E;
@@ -206,16 +217,6 @@ body {
 
 
 /* About Kaitlin */
-
-.welcomeC h1{
-  color:#5A697E;
-  font-family: Red Hat Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 50px;
-  line-height: 66px;
-}
-
 
 button {
   padding: 15px;

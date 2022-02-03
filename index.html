@@ -2,51 +2,54 @@
 <html>
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;700&family=Red+Hat+Mono:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+        </style>
+
     <title>Kaitlin May's Portfolio</title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
     <header>
-      <img src="images/kaitlinbrownmay.png">
+      <a href="index.html" >
+        <img src="images/kaitlinbrownmay.png"></a>
       <ul>
-        <li id="ABOUT"> <a href="about.html" >ABOUT</a></li>
-        <li id="SKILLS"> <a href="skills.html" >SKILLS</a></li>
-        <li id="WORK"> <a href="work.html" >WORK</a></li>
-        <li>CONTACT</li>
+        <li id="ABOUT"> <a href="about.html" >about</a></li>
+        <li id="SKILLS"> <a href="skills.html" >skills</a></li>
+        <li id="WORK"> <a href="work.html" >work</a></li>
+        <li>contact</li>
       </ul>
     </header>
-    <section class="heroImg">
-      <div class="content">
-        <img src="images/Portfolio Profile Picture.png">
-        <h1>Kaitlin May</h1>
-        <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua.</p>
-        <button onclick="alert('Thank You')">Dowload Resume</button>
-
-      </div>
-    </section>
-    
-    <h1 class="heading">My UX Skills</h1>
-    <section class="flexContainer">
+   
+    <section class="Welcome">
+        <div class="welcomeC">
+          <h1>Hi, I am <strong> Kaitlin Brown May</strong> and I am a UX/UI Designer and Project Manager based out of New York.</h1> 
+        </div>
+      </section>
+     <div class="heading">
+  <h1> What I do</h1>
+  </div>
+    <section class="flexContainer"> 
       <div>
-        <img src="images/placeholderSkill.png">
         <h3>Design</h3>
-        <p>Design innovative cross-platform solutions that delivers consistant brand communication for an omni-experience</p>
+         <p>Design innovative cross-platform solutions that delivers consistant brand communication for an omni-experience</p>
       </div>
       <div>
-        <img src="images/placeholderSkill.png">
         <h3>Project Management</h3>
         <p>Oversee stratic direction of digital design, working closely with designers, developers and steakholders</p>
       </div>
       <div>
-        <img src="images/placeholderSkill.png">
         <h3>UX</h3>
         <p>Build optimized consumer experiences based on qualitative and quantitative data via user testing and data analytics</p>
       </div>
     </section>
+    
+    
 
     <section class="myWork">
-      <h1 class="heading">My Work</h1>
+      <h1>Featured Projects</h1>
       <div class="workGrid">
         <div class="img1">
           <img src="images/Screen Shot 2022-01-11 at 3.17.35 PM.png">
@@ -64,24 +67,36 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
           <button>View Project</button>
         </div>
-        <div class="img3">
-          <img src="images/placeholder_picture.png">
+   
         </div>
-        <div class="content3">
-          <h4>Bucketlist Booker App Creation</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <button>View Project</button>
-        </div>
+  
       </div>
     </section>
-    <footer>
+
+  <section class="heroImg">
+    <div class="content">
+      <img src="images/Portfolio Profile Picture.png">
+      </div>
+      <div class="img" >
+      <h1>Kaitlin May</h1>
+      <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua.</p>
+      <button onclick="alert('Sucess! My Resume is now saved in your Downloads')">Dowload Resume</button>
+
+    </div>
+  </section>
+
+    </section>
+
+
+    <footer id="footer">
       <ul>
-        <li id="ABOUT"> <a href="about.html" >ABOUT</a></li>
-        <li id="SKILLS"> <a href="skills.html" >SKILLS</a></li>
-        <li id="WORK"> <a href="work.html" >WORK</a></li>
-        <li>CONTACT</li>
+        <li id="ABOUT"> <a href="about.html" >about</a></li>
+        <li id="SKILLS"> <a href="skills.html" >skills</a></li>
+        <li id="WORK"> <a href="work.html" >work</a></li>
+        <li>contact</li>
       </ul>
     </footer>
+  
   </body>
   <script src="js/index.js"></script>
 </html>
